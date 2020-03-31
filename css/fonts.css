@@ -1,0 +1,38 @@
+/* CSS Document */
+
+/* =======================        FONTS        ============================== */
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('fonts/oswald-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/oswald-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('fonts/muli-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/muli-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'muliitalic';
+    src: url('fonts/muli-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/muli-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dosisextralight';
+    src: url('dosis-variablefont_wght-webfont.woff2') format('woff2'),
+         url('dosis-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
