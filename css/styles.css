@@ -26,13 +26,13 @@ a:link, a:visited, a:hover, a:active {
   height: 40px;
   line-height: 40px;
   vertical-align: middle;
-  color: #084ad1;
+  color: white;
   border: solid 2px #084ad1;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
   border-radius: 25px;
-  /*background: rgba(0, 0, 0, 0.3);*/ 
+  background: rgba(8, 74, 209, 0.2);*/
   font-weight: bold;
 }
 
@@ -55,7 +55,10 @@ a:link, a:visited, a:hover, a:active {
 /* =======================       SECTIONS      ============================== */
 
 .section_menu {
-  width: 100%; 
+  width: 100%;
+  max-width: 1660px;
+  margin-left: auto ;
+  margin-right: auto ;
   display: table;
   height: 30px;
   line-height: 30px;
@@ -65,7 +68,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .section_top {
-  width: 100%; 
+  width: 100%;
+  max-width: 1660px;
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: center;
   display: table;
   height: 50px;
   line-height: 50px;
@@ -85,7 +92,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .section_welcome {
-  width: 100%; 
+  width: 100%;
   display: table;
   height: 450px;
   vertical-align: middle;
@@ -99,29 +106,29 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .section_about {
-  width: 100%; 
+  width: 100%;
   display: table;
   vertical-align: middle;
   background-color: #161616;
-  background-image: url("../images/action-blur-bulb-dark-355904_large.jpg");
+  /*background-image: url("../images/action-blur-bulb-dark-355904_large.jpg");*/
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
   background-position: center;
 }
 
 .section_services {
-  width: 100%; 
+  width: 100%;
   display: table;
   vertical-align: middle;
   background-color: #444444;
   background-image: url("../images/brown-book-page-1112048_large.jpg");
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
-  background-position: center; 
+  background-position: center;
 }
 
 .section_contact {
-  width: 100%; 
+  width: 100%;
   display: table;
   vertical-align: middle;
   background-color: black;
@@ -137,7 +144,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .section_footer {
-  width: 100%; 
+  width: 100%;
   display: table;
   height: 35px;
   line-height: 35px;
@@ -150,7 +157,7 @@ a:link, a:visited, a:hover, a:active {
 /* =======================     TOP SECTION     ============================== */
 
 .menu_link {
-  width: 130px; 
+  width: 130px;
   display: table-cell;
   height: 30px;
   line-height: 30px;
@@ -237,7 +244,7 @@ a:link, a:visited, a:hover, a:active {
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
-  color: white; 
+  color: white;
   text-align: left;
   line-height: 30px;
   font-size: 120%;
