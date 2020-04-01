@@ -1,55 +1,27 @@
 /* CSS Document */
 
 /* =======================   SPACE FILLERS     ============================== */
-.hfiller_narrow {
-  width: 80px;
+
+.hfill80, .hfill120, .hfill500 {
   display: table-cell;
 }
 
-.hfiller_narrowplus {
-  width: 100px;
-  display: table-cell;
+.hfill80  { width: 80px; }
+.hfill120 { width: 120px; }
+.hfill500 { width: 500px; }
+
+.vfill5, .vfill10, .vfill15, .vfill25, .vfill35, .vfill50, .vfill75, .vfill100 {
+  width: 1px;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 
-.hfiller_medium {
-  width: 120px;
-  display: table-cell;
-}
-
-.hfiller_wide {
-  width: 500px;
-  display: table-cell;
-}
-
-vfiller_ittybitty {
-  height: 5px;
-}
-
-.vfiller_tinytiny {
-  height: 10px;
-}
-
-.vfiller_tiny {
-  height: 15px;
-}
-
-.vfiller_small {
-  height: 25px;
-}
-
-.vfiller_smallplus {
-  height: 35px;
-}
-
-.vfiller_medium {
-  height: 50px;
-}
-
-.vfiller_large {
-  height: 75px;
-}
-
-.vfiller_huge {
-  height: 100px;
-}
+.vfill5   { height: 5px;  } 
+.vfill10  { height: 10px; } 
+.vfill15  { height: 15px; } 
+.vfill25  { height: 25px; } 
+.vfill35  { height: 35px; } 
+.vfill50  { height: 50px; }
+.vfill75  { height: 75px; }
+.vfill100 { height: 100px; }
 

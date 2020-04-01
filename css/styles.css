@@ -9,6 +9,8 @@ body {
   font-size: 15px;
 }
 
+/*div { border: 1px solid red; }*/
+
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   color: black;
@@ -55,7 +57,6 @@ a:link, a:visited, a:hover, a:active {
 .section_menu {
   width: 100%; 
   display: table;
-  vertical-align: middle;
   height: 30px;
   line-height: 30px;
   vertical-align: middle;
@@ -73,13 +74,14 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .section_name {
-  width: 100%; 
   display: table;
   height: 50px;
   /*line-height: 50px;*/
   vertical-align: middle;
   background-color: white;
   text-align: center;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 
 .section_welcome {
@@ -122,7 +124,7 @@ a:link, a:visited, a:hover, a:active {
   width: 100%; 
   display: table;
   vertical-align: middle;
-  background-color: white;
+  background-color: black;
   background-image: url("../images/email-blocks-on-gray-surface-1591062_large.jpg");
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
@@ -135,6 +137,13 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .section_footer {
+  width: 100%; 
+  display: table;
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+  border-top: 1px solid purple;
+  border-bottom: 1px solid purple;
   background-color: #fff9fc;
 }
 
@@ -171,7 +180,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .text_huge, .text_highlight, .text_about_signature, .text_about_signature_who {
-  width: 650px;
+  max-width: 650px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -192,7 +201,7 @@ a:link, a:visited, a:hover, a:active {
 /* ------------------------------------ */
 
 .text_about {
-  width: 750px;
+  max-width: 750px;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
@@ -215,7 +224,7 @@ a:link, a:visited, a:hover, a:active {
 /* ------------------------------------ */
 
 .text_info {
-  width: 750px;
+  max-width: 750px;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
@@ -224,7 +233,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .text_services_list {
-  width: 900px;
+  max-width: 900px;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
@@ -249,3 +258,6 @@ a:link, a:visited, a:hover, a:active {
   text-align: center;
 }
 
+.text_footer {
+  text-align: left;
+}
