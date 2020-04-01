@@ -149,11 +149,11 @@ a:link, a:visited, a:hover, a:active {
 
 /* =======================     TOP SECTION     ============================== */
 
-.top_link {
+.menu_link {
   width: 130px; 
   display: table-cell;
-  height: 20px;
-  line-height: 20px;
+  height: 30px;
+  line-height: 30px;
   vertical-align: middle;
   text-align: center;
   font-size: 14px;
