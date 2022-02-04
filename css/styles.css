@@ -82,7 +82,7 @@ a a:link, a:visited, a:hover, a:active {
   margin-right: auto ;
   text-align: center;
   display: table;
-  height: 50px;
+  height: 5px;
   line-height: 50px;
   vertical-align: middle;
   background-color: white;
@@ -92,7 +92,7 @@ a a:link, a:visited, a:hover, a:active {
 
 .section_name {
   display: table;
-  height: 50px;
+  height: 30px;
   /*line-height: 50px;*/
   vertical-align: middle;
   background-color: white;
