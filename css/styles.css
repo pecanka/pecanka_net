@@ -7,13 +7,19 @@ body {
   margin: 0px;
   font-family: 'muliregular', Arial, sans-serif;
   font-size: 15px;
+  text-align: center;
 }
 
 /*div { border: 1px solid red; }*/
 
-a:link, a:visited, a:hover, a:active {
+.menu_link a:link, .menu_link a:visited, .menu_link a:hover, .menu_link a:active {
   text-decoration: none;
   color: black;
+}
+
+a a:link, a:visited, a:hover, a:active {
+  text-decoration: none
+  color: green;
 }
 
 .maxout {
@@ -52,7 +58,7 @@ a:link, a:visited, a:hover, a:active {
   background: rgba(1, 1, 1, 0.75);
 }
 
-/* =======================       SECTIONS      ============================== */
+/* =======================       SECTION MENU      ============================== */
 
 .section_menu {
   width: 100%;
@@ -67,6 +73,8 @@ a:link, a:visited, a:hover, a:active {
   border-bottom: 1px solid purple;
 }
 
+/* =======================       SECTION  TOP      ============================== */
+
 .section_top {
   width: 100%;
   max-width: 1660px;
@@ -80,6 +88,8 @@ a:link, a:visited, a:hover, a:active {
   background-color: white;
 }
 
+/* =======================       SECTION  NAME     ============================== */
+
 .section_name {
   display: table;
   height: 50px;
@@ -90,6 +100,8 @@ a:link, a:visited, a:hover, a:active {
   margin-left: auto ;
   margin-right: auto ;
 }
+
+/* =======================      SECTION  WELCOME     ============================ */
 
 .section_welcome {
   width: 100%;
@@ -105,6 +117,12 @@ a:link, a:visited, a:hover, a:active {
   background-position: center;
 }
 
+.section_welcome a:link, .section_welcome a:visited, .section_welcome a:hover, .section_welcome a:active {
+  color: white;
+}
+
+/* =======================       SECTION ABOUT     ============================== */
+
 .section_about {
   width: 100%;
   display: table;
@@ -112,9 +130,15 @@ a:link, a:visited, a:hover, a:active {
   background-color: #161616;
   /*background-image: url("../images/action-blur-bulb-dark-355904_large.jpg");*/
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  /*background- attachment: fixed;*/
   background-position: center;
 }
+
+.section_about a:link, .section_about a:visited, .section_about a:hover, .section_about a:active {
+  color: white;
+}
+
+/* =======================       SECTION SERVICES    ============================ */
 
 .section_services {
   width: 100%;
@@ -126,6 +150,12 @@ a:link, a:visited, a:hover, a:active {
   /*background-attachment: fixed;*/
   background-position: center;
 }
+
+.section_services a:link, .section_services a:visited, .section_services a:hover, .section_services a:active {
+  color: white;
+}
+
+/* =======================       SECTION CONTACT     ============================ */
 
 .section_contact {
   width: 100%;
@@ -142,6 +172,8 @@ a:link, a:visited, a:hover, a:active {
 .section_contact a:link, .section_contact a:visited, .section_contact a:hover, .section_contact a:active {
   color: white;
 }
+
+/* =======================       SECTION FOOTER      ============================ */
 
 .section_footer {
   width: 100%;
