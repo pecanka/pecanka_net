@@ -3,14 +3,14 @@
 /* =======================   GENERAL OBJECTS   ============================== */
 body {
   background-color: #fafafa;
-  padding: 0px;
-  margin: 0px;
+  padding: 0pt;
+  margin: 0pt;
   font-family: 'muliregular', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 13pt;
   text-align: center;
 }
 
-/*div { border: 1px solid red; }*/
+/*div { border: 1pt solid red; }*/
 
 .menu_link a:link, .menu_link a:visited, .menu_link a:hover, .menu_link a:active {
   text-decoration: none;
@@ -28,16 +28,16 @@ a a:link, a:visited, a:hover, a:active {
 }
 
 .button {
-  width: 120px;
-  height: 40px;
-  line-height: 40px;
+  width: 120pt;
+  height: 40pt;
+  line-height: 40pt;
   vertical-align: middle;
   color: white;
-  border: solid 2px #084ad1;
+  border: solid 2pt #084ad1;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
-  border-radius: 25px;
+  border-radius: 25pt;
   background: rgba(8, 74, 209, 0.2);*/
   font-weight: bold;
 }
@@ -62,28 +62,28 @@ a a:link, a:visited, a:hover, a:active {
 
 .section_menu {
   width: 100%;
-  max-width: 1660px;
+  max-width: 1660pt;
   margin-left: auto ;
   margin-right: auto ;
   display: table;
-  height: 30px;
-  line-height: 30px;
+  height: 30pt;
+  line-height: 30pt;
   vertical-align: middle;
-  border-top: 1px solid purple;
-  border-bottom: 1px solid purple;
+  border-top: 1pt solid purple;
+  border-bottom: 1pt solid purple;
 }
 
 /* =======================       SECTION  TOP      ============================== */
 
 .section_top {
   width: 100%;
-  max-width: 1660px;
+  max-width: 1660pt;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
   display: table;
-  height: 5px;
-  line-height: 50px;
+  height: 5pt;
+  line-height: 50pt;
   vertical-align: middle;
   background-color: white;
 }
@@ -92,8 +92,8 @@ a a:link, a:visited, a:hover, a:active {
 
 .section_name {
   display: table;
-  height: 30px;
-  /*line-height: 50px;*/
+  /*height: 30pt;*/
+  /*line-height: 50pt;*/
   vertical-align: middle;
   background-color: white;
   text-align: center;
@@ -106,7 +106,6 @@ a a:link, a:visited, a:hover, a:active {
 .section_welcome {
   width: 100%;
   display: table;
-  height: 450px;
   vertical-align: middle;
   text-align: center;
   color: white;
@@ -178,28 +177,28 @@ a a:link, a:visited, a:hover, a:active {
 .section_footer {
   width: 100%;
   display: table;
-  height: 35px;
-  line-height: 35px;
+  height: 35pt;
+  line-height: 35pt;
   vertical-align: middle;
-  border-top: 1px solid purple;
-  border-bottom: 1px solid purple;
+  border-top: 1pt solid purple;
+  border-bottom: 1pt solid purple;
   background-color: #fff9fc;
 }
 
 /* =======================     TOP SECTION     ============================== */
 
 .menu_link {
-  width: 130px;
+  width: 130pt;
   display: table-cell;
-  height: 30px;
-  line-height: 30px;
+  height: 30pt;
+  line-height: 30pt;
   vertical-align: middle;
   text-align: center;
-  font-size: 14px;
+  font-size: 14pt;
 }
 
 .top_contact_info_left, .top_contact_info_left {
-  width: 200px;
+  width: 200pt;
   display: table-cell;
 }
 
@@ -215,11 +214,11 @@ a a:link, a:visited, a:hover, a:active {
 
 .text_name {
   font-family: oswaldregular;
-  font-size: 25px;
+  font-size: 25pt;
 }
 
 .text_huge, .text_highlight, .text_about_signature, .text_about_signature_who {
-  max-width: 650px;
+  max-width: 650pt;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -229,7 +228,7 @@ a a:link, a:visited, a:hover, a:active {
 .text_huge {
   font-family: oswaldregular;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 40pt;
   color: #084af1;
 }
 
@@ -240,12 +239,12 @@ a a:link, a:visited, a:hover, a:active {
 /* ------------------------------------ */
 
 .text_about {
-  max-width: 750px;
+  max-width: 750pt;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
   font-style: italic;
-  line-height: 30px;
+  line-height: 30pt;
   font-size: 110%;
   color: white;
 }
@@ -263,22 +262,22 @@ a a:link, a:visited, a:hover, a:active {
 /* ------------------------------------ */
 
 .text_info {
-  max-width: 750px;
+  max-width: 750pt;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
   font-size: 120%;
-  line-height: 30px;
+  line-height: 30pt;
 }
 
 .text_services_list {
-  max-width: 900px;
+  max-width: 900pt;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
   color: white;
   text-align: left;
-  line-height: 30px;
+  line-height: 30pt;
   font-size: 120%;
 }
 
@@ -288,9 +287,9 @@ a a:link, a:visited, a:hover, a:active {
 }
 
 .text_contact_info {
-  width: 300px;
-  height: 50px;
-  line-height: 50px;
+  width: 300pt;
+  height: 50pt;
+  line-height: 50pt;
   vertical-align: middle;
   margin-left: auto ;
   margin-right: auto ;
