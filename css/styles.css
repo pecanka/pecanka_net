@@ -29,6 +29,8 @@ a a:link, a:visited, a:hover, a:active {
 .button {
   width: 120pt;
   height: 40pt;
+  font-size: 15pt;
+  font-weight: bold;
   line-height: 40pt;
   vertical-align: middle;
   color: white;
@@ -37,8 +39,7 @@ a a:link, a:visited, a:hover, a:active {
   margin-right: auto ;
   text-align: center;
   border-radius: 25pt;
-  background: rgba(8, 74, 209, 0.2);*/
-  font-weight: bold;
+  background: rgba(8, 74, 209, 0.2);
 }
 
 .dark_layer {
@@ -213,8 +214,15 @@ a a:link, a:visited, a:hover, a:active {
 /* =======================    TEXT OBJECTS     ============================== */
 
 .text_name {
-  font-family: oswaldregular;
+  width: 100%;
   font-size: 25pt;
+  font-family: oswaldregular;
+}
+
+.text_motto {
+  width: 100%;
+  font-size: 17pt;
+  font-family: oswaldregular;
 }
 
 .text_huge, .text_highlight, .text_about_signature, .text_about_signature_who {
@@ -289,6 +297,7 @@ a a:link, a:visited, a:hover, a:active {
 .text_contact_info {
   width: 300pt;
   height: 50pt;
+  font-size: 20pt;
   line-height: 50pt;
   vertical-align: middle;
   margin-left: auto ;
