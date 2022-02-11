@@ -2,7 +2,6 @@
 /* =======================   GENERAL OBJECTS   ============================== */
 body {
   background-color: #fafafa;
-  padding: 0pt;
   margin: 0pt;
   font-family: 'muliregular', Arial, sans-serif;
   font-size: 15pt;
@@ -16,9 +15,7 @@ body {
   color: black;
 }
 
-a a:link, a:visited, a:hover, a:active {
-  text-decoration: none
-  color: green;
+a, a:link, a:visited, a:hover, a:active {
 }
 
 .maxout {
@@ -26,8 +23,14 @@ a a:link, a:visited, a:hover, a:active {
   width: 100%;
 }
 
+.box {
+  width: auto;
+  margin: auto;
+  border: 1pt solid white;
+}
+
 .button {
-  width: 120pt;
+  display: table;
   height: 40pt;
   font-size: 120%;
   font-weight: bold;
@@ -37,6 +40,9 @@ a a:link, a:visited, a:hover, a:active {
   border: solid 2pt #084ad1;
   margin-left: auto ;
   margin-right: auto ;
+  padding-left: 20pt;
+  padding-right: 20pt;
+  white-space: nowrap;
   text-align: center;
   border-radius: 25pt;
   background: rgba(8, 74, 209, 0.2);
