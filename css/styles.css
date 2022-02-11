@@ -5,7 +5,7 @@ body {
   padding: 0pt;
   margin: 0pt;
   font-family: 'muliregular', Arial, sans-serif;
-  font-size: 13pt;
+  font-size: 15pt;
   text-align: center;
 }
 
@@ -195,7 +195,7 @@ a a:link, a:visited, a:hover, a:active {
   line-height: 30pt;
   vertical-align: middle;
   text-align: center;
-  font-size: 14pt;
+  font-size: 110%;
 }
 
 .top_contact_info_left, .top_contact_info_left {
@@ -215,13 +215,13 @@ a a:link, a:visited, a:hover, a:active {
 
 .text_name {
   width: 100%;
-  font-size: 25pt;
+  font-size: 140%;
   font-family: oswaldregular;
 }
 
 .text_motto {
   width: 100%;
-  font-size: 17pt;
+  font-size: 125%;
   font-family: oswaldregular;
 }
 
@@ -236,7 +236,7 @@ a a:link, a:visited, a:hover, a:active {
 .text_huge {
   font-family: oswaldregular;
   font-weight: bold;
-  font-size: 40pt;
+  font-size: 200%;
   color: #084af1;
 }
 
@@ -247,7 +247,7 @@ a a:link, a:visited, a:hover, a:active {
 /* ------------------------------------ */
 
 .text_about {
-  max-width: 750pt;
+  max-width: 750pt 80%;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
