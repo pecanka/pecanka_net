@@ -29,7 +29,7 @@ a a:link, a:visited, a:hover, a:active {
 .button {
   width: 120pt;
   height: 40pt;
-  font-size: 15pt;
+  font-size: 120%;
   font-weight: bold;
   line-height: 40pt;
   vertical-align: middle;
@@ -279,7 +279,7 @@ a a:link, a:visited, a:hover, a:active {
 }
 
 .text_services_list {
-  max-width: 900pt;
+  max-width: 80%;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
@@ -297,7 +297,7 @@ a a:link, a:visited, a:hover, a:active {
 .text_contact_info {
   width: 300pt;
   height: 50pt;
-  font-size: 20pt;
+  font-size: 120%;
   line-height: 50pt;
   vertical-align: middle;
   margin-left: auto ;
