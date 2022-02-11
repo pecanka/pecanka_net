@@ -232,7 +232,7 @@ a, a:link, a:visited, a:hover, a:active {
 }
 
 .text_huge, .text_highlight, .text_about_signature, .text_about_signature_who {
-  max-width: 650pt;
+  max-width: 75%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -276,7 +276,7 @@ a, a:link, a:visited, a:hover, a:active {
 /* ------------------------------------ */
 
 .text_info {
-  max-width: 750pt;
+  max-width: 80%;
   margin-left: auto ;
   margin-right: auto ;
   text-align: center;
